@@ -3,7 +3,7 @@ public class Array {
         int array [] = {1,2,3};
 
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+            System.out.println(array[i] + " ");
         }
 
         int array1 [] = new int[4];
@@ -13,7 +13,7 @@ public class Array {
         array1[2] = 3;
 
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array1[i] + " ");
+            System.out.println(array1[i] + " ");
         }
     }
 }
